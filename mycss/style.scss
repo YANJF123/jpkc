@@ -1,0 +1,130 @@
+$page_width: 1000px;
+$head_height: 140px;
+$main_left_width: 210px;
+$main_right_width: 790px;
+$footer_width: 1000px;
+$footer_height: 100px;
+/*html {
+  box-sizing: border-box;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}*/
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f8f8ff;
+}
+
+header {
+  position: fixed;
+  top:0;
+  width:100%;
+
+  .warp {
+
+    width: $page_width;
+    height: $head_height;
+    background-color: aliceblue;
+    margin: 0 auto;
+    .title {
+      width: $page_width;
+      height: 100px;
+      background-image: url("../tp/1.jpg");
+    }
+    ul.nav {
+      width: $page_width;
+      height: 40px;
+      padding: 0;
+      margin: 0;
+      background-image: url("../tp/2.jpg");
+      // text-align: center;
+      text-align: right;
+      li {
+        display: inline-block;
+        padding: 8px 13px;
+        font-weight: bold;
+      }
+      li:hover {
+        background: purple;
+        /*
+        color: black;
+        */
+      }
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+      }
+
+    }
+
+  }
+
+}
+
+.main {
+  width: $page_width;
+  height: auto;
+
+  margin: 0 auto;
+  .main_top {
+    width: $page_width;
+    margin-top: 140px;
+    height: 220px;
+    background-image: url("../tp/4.jpg");
+  }
+  .main_left {
+    width: $main_left_width;
+    float: left;
+    height: 620px;
+    background-image: url("../tp/3-1.jpg");
+    .da {
+      margin-top: 77px;
+      li {
+        display: block;
+        padding: 14px 35px;
+
+      }
+    }
+    a {
+      color: black;
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 300;
+    }
+
+  }
+  .main_right {
+
+    width: $main_right_width;
+    float: right;
+    height: auto;
+    .as{
+      background-image: url("../tp/6.jpg");
+      width: 790px;
+      height: 30px;
+    }
+  }
+  .de{
+    margin-top:620px ;
+    background-image: url("../tp/5.jpg");
+    height: 100px;
+    width: $footer_width;
+  }
+}
+
+/*footer {
+  width: 100%;
+  background-color: aqua;
+  .warp {
+    width: $footer_width;
+    margin: 0 auto;
+    height: $footer_height;
+
+  }
+}*/

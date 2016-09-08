@@ -1,0 +1,98 @@
+/*html {
+  box-sizing: border-box;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}*/
+body, html {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #f8f8ff; }
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  header .warp {
+    width: 1000px;
+    height: 140px;
+    background-color: aliceblue;
+    margin: 0 auto; }
+    header .warp .title {
+      width: 1000px;
+      height: 100px;
+      background-image: url("../tp/1.jpg"); }
+    header .warp ul.nav {
+      width: 1000px;
+      height: 40px;
+      padding: 0;
+      margin: 0;
+      background-image: url("../tp/2.jpg");
+      text-align: right; }
+      header .warp ul.nav li {
+        display: inline-block;
+        padding: 8px 13px;
+        font-weight: bold; }
+      header .warp ul.nav li:hover {
+        background: purple;
+        /*
+        color: black;
+        */ }
+      header .warp ul.nav a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px; }
+
+.main {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto; }
+  .main .main_top {
+    width: 1000px;
+    margin-top: 140px;
+    height: 220px;
+    background-image: url("../tp/4.jpg"); }
+  .main .main_left {
+    width: 210px;
+    float: left;
+    height: 620px;
+    background-image: url("../tp/3-1.jpg"); }
+    .main .main_left .da {
+      margin-top: 77px; }
+      .main .main_left .da li {
+        display: block;
+        padding: 14px 35px; }
+    .main .main_left a {
+      color: black;
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 300; }
+  .main .main_right {
+    width: 790px;
+    float: right;
+    height: auto; }
+    .main .main_right .as {
+      background-image: url("../tp/6.jpg");
+      width: 790px;
+      height: 30px; }
+  .main .de {
+    margin-top: 620px;
+    background-image: url("../tp/5.jpg");
+    height: 100px;
+    width: 1000px; }
+
+/*footer {
+  width: 100%;
+  background-color: aqua;
+  .warp {
+    width: $footer_width;
+    margin: 0 auto;
+    height: $footer_height;
+
+  }
+}*/
+
+/*# sourceMappingURL=style.css.map */
